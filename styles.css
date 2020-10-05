@@ -13,6 +13,7 @@ header {
 
 section {
     border: 2px solid darkblue;
+    border-radius: 20px;
     margin: 25px;
     background-color: darkblue;
     color: orange;
@@ -84,4 +85,5 @@ img {
     padding: 15px;
     background-color: orange;
     color: white;
+    border-radius: 10px;
 }
