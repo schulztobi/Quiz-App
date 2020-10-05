@@ -80,3 +80,8 @@ img {
     padding: 15px;
     margin: 15px;
 }
+.tip {
+    padding: 15px;
+    background-color: orange;
+    color: white;
+}
