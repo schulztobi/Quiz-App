@@ -20,7 +20,7 @@ section {
 
 nav {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     }
 
 footer {
@@ -41,7 +41,7 @@ ul  {
     list-style-type: none;
 }
 img {
-    height:100px;
+    height:200px;
 }
 .profile-head {
     font-size: 14px;
@@ -49,5 +49,32 @@ img {
     justify-content: space-evenly;
 }
 .profile-name {
-    margin-top: 45px;
+    margin-top: 85px;
+}
+.active {
+    background-color: white;
+}
+.aboutme {
+    font-size: 16px;
+    margin:20px;
+}
+.skills {
+    font-size: 30px;
+}
+.skill {
+    padding: 20px;
+    background-color: orange;
+    color: darkblue;
+}
+.logout {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+.main-bookmarks {
+    height:100vh;
+}
+.submitbutton {
+    padding: 15px;
+    margin: 15px;
 }
