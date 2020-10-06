@@ -80,8 +80,9 @@ img {
     margin: 15px;
 }
 .tip {
+    font-size: 20;
     padding: 15px;
-    background-color: orange;
+    background-color: yellow;
     color: white;
     border-radius: 10px;
 }
