@@ -30,7 +30,7 @@ footer {
     background: orange;
 }
 footer a {
-    color:darkblue;
+    color: darkblue;
     text-decoration: none;
     font-size: 25px;
 }
@@ -54,9 +54,7 @@ img {
 .profile-name {
     margin-top: 100px;
 }
-.active {
-    background-color: white;
-}
+
 .aboutme {
     font-size: 16px;
     margin:20px;
@@ -86,4 +84,7 @@ img {
     background-color: orange;
     color: white;
     border-radius: 10px;
+}
+a active {
+    background-color: white;
 }
