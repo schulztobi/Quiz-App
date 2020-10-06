@@ -1,0 +1,22 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "The great quiz app!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schulztobi/Quiz-App.git"
+  },
+  "author": "Tobias Schulz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schulztobi/Quiz-App/issues"
+  },
+  "homepage": "https://github.com/schulztobi/Quiz-App#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
