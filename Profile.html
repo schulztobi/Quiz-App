@@ -12,30 +12,28 @@
       <h1>Profile</h1>
     </header>
 
-
-
     <main>
-        <div class="profile-head">
+        <div class="profile">
           <img src="pictures/52892-petergriffinbh9.jpg">
-          <h2 class="profile-name">Name:Peter Griffin</h2>
+          <h2 class="profile__name">Name:Peter Griffin</h2>
         </div>
 
-        <div class="aboutme">
+        <div class="profile__text">
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
         </div>
 
         <div>
-            <p class="skills"><strong>Meine Skills</strong></p>
-            <ul class="skill-list">
-                <li class="skill">Schön</li>
-                <li class="skill">Stark</li>
-                <li class="skill">Mutig</li>
-                <li class="skill">Sexy</li>
+            <p class="profile__skillheadline"><strong>Meine Skills</strong></p>
+            <ul class="profile__list">
+                <li>Schön</li>
+                <li>Stark</li>
+                <li>Mutig</li>
+                <li>Sexy</li>
             </ul>
         </div>
 
         <div>
-            <button class="logout">Logout</button>
+            <button class="profile__logout">Logout</button>
         </div>
 
 
@@ -59,13 +57,12 @@
 
 
     <footer>
-        <nav>
-            <div class="navlink"><a href="/index.html">Home</a></div>
-            <div class="navlink"><a href="/Bookmark.html">Bookmarks</a></div>
-            <div class="navlink"><a href="/Create.html">Create</a></div>
-            <div class="navlink active"><a href="/Profile.html">Profile</a></div>
-            </nav>
-
+        <nav class="navigation">
+            <div class="navigation__link"><a href="/index.html">Home</a></div>
+            <div class="navigation__link"><a href="/Bookmark.html">Bookmarks</a></div>
+            <div class="navigation__link"><a href="/Create.html">Create</a></div>
+            <div class="navigation__link--active"><a href="/Profile.html">Profile</a></div>
+          </nav>
     </footer>
     
 </body>

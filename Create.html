@@ -8,59 +8,47 @@
 </head>
 <body>
 
-
     <header>
-        <h1 class="headline-create">Create</h1>
+        <h1 class="headline">Create</h1>
     </header>
 
-
     <main>
-
-
-        <section>
+        <section class="card">
           <form action="index.html">
-            <label for="newque">New Question:</label><br>
-            <textarea name="newque" id="newque" cols="30" rows="10">Type your new question here</textarea><br><br>
-        
+            <label for="card__newque">New Question:</label><br>
+            <textarea name="card__newque" id="card__newque" cols="30" rows="10">Type your new question here</textarea><br><br>
           </form>
         </section>
 
-        <section>
+        <section class="card">
           <form action="index.html"> 
-            <label for="newans">New Answer:</label><br>
-            <textarea name="newans" id="newans" cols="30" rows="10">Type your new answer here</textarea><br><br>
-
+            <label for="card__newans">New Answer:</label><br>
+            <textarea name="card__newans" id="card__newans" cols="30" rows="10">Type your new answer here</textarea><br><br>
           </form>
         </section>
 
-    <section>
-        <form action="index.html"> 
-            <label for="newtag">New Tags</label><br>
-            <textarea name="newtags" id="newtags" cols="30" rows="10">Add your tags here</textarea><br><br>
-
-        </form>
-    </section>
+        <section class="card">
+          <form action="index.html"> 
+            <label for="card__newtag">New Tags</label><br>
+            <textarea name="card__newtags" id="card__newtags" cols="30" rows="10">Add your tags here</textarea><br><br>
+           </form>
+        </section>
     
-    <section>
-        <form action="index.html">
-            <input class="submitbutton" type="submit" value="Submit">
-        </form>
-
-        <p>Click on Submit to upload your Question</p>
-    </section>
-        
-        
-
+        <section class="card">
+          <form action="index.html">
+            <input class="card__submitbutton" type="submit" value="Submit">
+          </form>
+          <p class="card__text">Click on Submit to upload your Question</p>
+        </section> 
     </main>
 
     <footer>
-        <nav>
-            <div class="navlink"><a href="index.html">Home</a></div>
-            <div class="navlink"><a href="Bookmark.html">Bookmarks</a></div>
-            <div class="navlink active"><a href="Create.html">Create</a></div>
-            <div class="navlink"><a href="Profile.html">Profile</a></div>
-            </nav>
-
+        <nav class="navigation">
+            <div class="navigation__link"><a href="/index.html">Home</a></div>
+            <div class="navigation__link"><a href="/Bookmark.html">Bookmarks</a></div>
+            <div class="navigation__link--active"><a href="/Create.html">Create</a></div>
+            <div class="navigation__link"><a href="/Profile.html">Profile</a></div>
+          </nav>
     </footer>
     
 </body>
