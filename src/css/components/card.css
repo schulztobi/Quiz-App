@@ -1,0 +1,55 @@
+.card {
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: var(--primary);
+    background-image: linear-gradient(white, transparent);
+    color: var(--secondary);
+    text-shadow: 5px 10px 5px var(--third);
+    box-shadow: 10px 15px 30px var(--secondary);
+    width: 80%;
+}
+
+.card__submitbutton {
+    padding: 15px;
+    margin: 15px;
+}
+
+.card__tip {
+    padding: 15px;
+    margin: 5px;
+    background-color: var(--secondary);
+    background-image: linear-gradient(45deg, var(--primary), var(--third) 40px, var(--secondary) 80px);
+    color: white;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.card__tip:hover {
+    transform: rotateZ(45deg) scale(0.5);
+}
+
+.card__tip:nth-child(2):hover {
+    transform: scale(1.5);
+  } 
+  
+.card__tip:nth-child(3):hover {
+    transform: rotateX(90deg);
+  }  
+  
+.card__tip:nth-child(4):hover {
+    transform: rotateX(45deg) scale(0.4);
+  }
+
+ul  {
+    display:flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:0;
+    list-style-type: none;
+}
